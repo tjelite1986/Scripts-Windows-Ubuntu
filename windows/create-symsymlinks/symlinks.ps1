@@ -37,11 +37,11 @@ function Symlink-Items {
 }
 
 # Define paths for Movies and Shows
-$moviesPath = "C:\Path\To\Your\Movies"
-$showsPath = "C:\Path\To\Your\Shows"
-$targetPath = "C:\Path\To\Your\Target"
-$cachePath = "C:\Path\To\Your\Cache"
+#$moviesPath = "Z:\movies\"
+$showsPath = "Z:\shows"
+$targetPath = "P:\media\blackhole\sonarr"
+$cachePath = "P:\media\blackhole\Cache"
 
 # Call the function for movies and shows
-Symlink-Items -ItemPath $moviesPath -Target $targetPath -Cache $cachePath
+#Symlink-Items -ItemPath $moviesPath -Target $targetPath -Cache $cachePath
 Symlink-Items -ItemPath $showsPath -Target $targetPath -Cache $cachePath
